@@ -30,8 +30,7 @@ sleep 15'''
     stage('Deploy to prod') {
       steps {
         sh '''echo "you are in prod"
-date
-time'''
+echo date'''
       }
     }
 
